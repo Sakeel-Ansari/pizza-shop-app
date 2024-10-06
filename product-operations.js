@@ -5,7 +5,7 @@
    convert the JSON into object and vise-versa 
 */
 
-import Product from "../models/product.js";
+import Product from "./product.js";
 import doNetworkCall from "./api-client.js";
 
 const productOperations = {
