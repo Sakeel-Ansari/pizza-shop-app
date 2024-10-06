@@ -1,7 +1,7 @@
 //Controller is a GLue between View and model
 //Controller performs the I/O from the UI  
 
-import productOperations from "../services/product-operations.js";
+import productOperations from "./product-operations.js";
 
 async function loadPizzas(){
     const pizzas= await productOperations.loadProducts();
