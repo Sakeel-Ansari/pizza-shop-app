@@ -1,5 +1,5 @@
 // Networks calling code
-import URL from "../utils/constant.js";
+import URL from "./constant.js";
 async function doNetworkCall(){
      
     try{
